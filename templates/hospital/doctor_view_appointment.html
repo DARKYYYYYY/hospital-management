@@ -6,7 +6,7 @@
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
+  
   <style media="screen">
     a:link {
       text-decoration: none;
@@ -27,8 +27,10 @@
         {% csrf_token %}
 
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name='q'>
-        <button class="btn btn-outline-secondary" type="submit" style="background-color: lightcoral">Search</button>
+        <button class="btn btn-primary" type="submit">Search</button>
       </form>
+      <br>
+    
   <div class="panel panel-primary">
     <div class="panel-heading">
       <h6 class="panel-title">Your Appointments</h6>
